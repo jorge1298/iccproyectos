@@ -2,6 +2,8 @@ import pygame
 from pygame.locals import *
 import random
 import copy
+sonido = pygame.mixer.Sound("sonido.wav")
+sonido.play()
 
 #Cargando imagenes
 cBack = pygame.image.load('Cartas/Corazones/Cara volteada.png')
