@@ -162,6 +162,7 @@ def main():
     restartTxt = font.render('Volver a jugar', 1, black)
     gameoverTxt = font.render('JUEGO TERMINADO', 1, white)
     userSum, userA, dealSum, dealA = initGame(ccards, userCard, dealCard)
+    
 
     #el fondo
     background = pygame.Surface(screen.get_size())
