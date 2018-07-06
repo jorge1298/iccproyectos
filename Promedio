@@ -1,0 +1,7 @@
+contador=1
+suma=0
+while contador <8:
+    nota=int(input("Nota "+str(contador)+": "))
+    suma=suma + nota
+    contador=contador+1
+print("el promedio es: ",suma/7)
