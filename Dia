@@ -1,0 +1,17 @@
+dia = int(input("Ingrese el dia ( 1=Lunes, 2=Martes . . 7=Domingo): "))
+dia_texto = 'Dato no valido'
+if dia == 1:
+ dia_texto = 'Lunes'
+elif dia == 2:
+ dia_texto = 'Martes'
+elif dia == 3:
+ dia_texto = 'Miercoles'
+elif dia == 4:
+ dia_texto = 'Jueves'
+elif dia == 5:
+ dia_texto = 'Viernes'
+elif dia == 6:
+ dia_texto = 'Sabado'
+elif dia == 7:
+ dia_texto = 'Domingo'
+ print("El dia de la semana es: ", dia_texto)
