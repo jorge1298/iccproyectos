@@ -63,7 +63,7 @@ spadeK = pygame.image.load('Cartas/Espadas/K.png')
 #Constantes globales
 black = (0,0,0)
 white = (255,255,255)
-gray = (192,192,192)
+gray = (192, 192, 192)
 
 cards = [ diamondA, clubA, heartA, spadeA,
           diamond2, club2, heart2, spade2,
